@@ -1,12 +1,12 @@
 import React from "react";
-import { FaCode, FaDesktop, FaMobile, FaPaintBrush } from "react-icons/fa";
+import { FaSearchDollar, FaChartLine, FaBullhorn, FaHashtag } from "react-icons/fa";
 
 const Works = () => {
   const services = [
-    { icon: <FaCode />, title: "Web Development" },
-    { icon: <FaDesktop />, title: "Software Development" },
-    { icon: <FaMobile />, title: "Mobile Development" },
-    { icon: <FaPaintBrush />, title: "UI/UX Design" },
+    { icon: <FaSearchDollar />, title: "SEO & Analytics" },
+    { icon: <FaChartLine />, title: "Digital Strategy" },
+    { icon: <FaBullhorn />, title: "Social Media Marketing" },
+    { icon: <FaHashtag />, title: "Content Marketing" },
   ];
 
   return (

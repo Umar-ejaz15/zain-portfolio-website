@@ -17,17 +17,22 @@ const App = () => {
   return (
     <>
       <Helmet>
-        <title>Umar - MERN Stack Developer | Portfolio</title>
-        <meta name="description" content="I'm Umar, a MERN Stack Developer specializing in MongoDB, Express.js, React.js, and Node.js development." />
-        <meta name="keywords" content="MERN stack, web developer, MongoDB, Express.js, React.js, Node.js, full stack developer, JavaScript" />
-        <meta name="author" content="Umar" />
-        <meta property="og:title" content="Umar - MERN Stack Developer" />
-        <meta property="og:description" content="I'm Umar, a MERN Stack Developer specializing in MongoDB, Express.js, React.js, and Node.js development." />
+        <title>Zain Ul Abdin - Product Marketing Specialist | Digital Marketing Portfolio</title>
+        <meta name="description" content="I'm Zain Ul Abdin, a Product Marketing Specialist with expertise in SEO, Social Media Marketing, and Digital Marketing. Experienced in SaaS product marketing and data-driven strategies." />
+        <meta name="keywords" content="Product Marketing Specialist, Digital Marketing, SEO, Social Media Marketing, SaaS Marketing, Content Strategy, Google Analytics, SEMrush, Ahrefs, Campaign Management" />
+        <meta name="author" content="Zain Ul Abdin" />
+        <meta property="og:title" content="Zain Ul Abdin - Product Marketing Specialist" />
+        <meta property="og:description" content="Results-driven Product Marketing Specialist with 2+ years of experience in SaaS products, SEO, and digital marketing strategies." />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Umar - MERN Stack Developer" />
-        <meta name="twitter:description" content="I'm Umar, a MERN Stack Developer specializing in MongoDB, Express.js, React.js, and Node.js development." />
+        <meta name="twitter:title" content="Zain Ul Abdin - Product Marketing Specialist" />
+        <meta name="twitter:description" content="Product Marketing Specialist specializing in SEO, social media optimization, and data-driven marketing strategies." />
         <link rel="canonical" href="https://your-website-url.com" />
+        <meta name="location" content="Lahore, Pakistan" />
+        <meta name="contact" content="+92 370 0430008 | Zain.ul.abdin558120@gmail.com" />
+        <meta name="skills" content="SEO, Google Analytics 4, SaaS Marketing, Content Strategy, Social Media Marketing, Campaign Management" />
+        <meta name="experience" content="Amoxt Solutions Inc., Product Marketing Associate, Data Entry Specialist" />
+        <meta name="education" content="BS Computer Science, Virtual University Lahore" />
       </Helmet>
       <div className="w-full min-h-screen py-2 px-4 sm:px-6 md:px-8 lg:px-20 text-white bg-zinc-950">
       <Analytics/>
@@ -79,7 +84,7 @@ const App = () => {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.5, delay: 1 }}
               >
-                <Certificate />
+                {/* <Certificate /> */}
               </motion.div>
             </div>
           </div>

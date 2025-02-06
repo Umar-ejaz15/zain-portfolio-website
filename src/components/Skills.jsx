@@ -1,6 +1,6 @@
 import React from 'react'
-import { FaDatabase, FaNodeJs, FaReact, FaAws, FaGitAlt, FaCode, FaLaptopCode, FaGamepad, FaBook } from 'react-icons/fa'
-import { SiExpress, SiTypescript, SiGraphql, SiJavascript, SiMongodb } from 'react-icons/si'
+import { FaChartLine, FaSearchDollar, FaBullhorn, FaLaptop, FaBook, FaCode, FaHashtag, FaYoutube, FaReddit } from 'react-icons/fa'
+import { SiGoogleanalytics, SiPinterest, SiLinkedin, SiSemrush } from 'react-icons/si'
 
 const Skills = () => {
   return (
@@ -12,59 +12,56 @@ const Skills = () => {
       <div className="space-y-2 flex-1">
         <div className="bg-zinc-800/50 p-4 rounded-lg">
           <p className="text-sm md:text-xs text-gray-300 hover:text-white transition-colors leading-relaxed">
-            <FaLaptopCode className="inline-block mr-2 text-blue-400" />
-            Hi, I'm Umar, a MERN stack developer from Pakistan specializing in full-stack web development.
+            <FaLaptop className="inline-block mr-2 text-blue-400" />
+            Hi, I'm Zain, a Product Marketing Specialist from Lahore, specializing in SaaS product marketing and digital strategies.
           </p>
         </div>
 
         <div className="bg-zinc-800/50 p-4 rounded-lg">
           <h3 className="text-lg md:text-xl font-semibold mb-6 text-white flex items-center gap-3">
-            <FaNodeJs className="text-green-500 animate-bounce" />
-            Technical Skills
+            <FaChartLine className="text-green-500 animate-bounce" />
+            Marketing Skills
           </h3>
           <ul className="grid grid-rows-2 md:rows-rows-3 lg:grid-rows-4 gap-2">
             <li className="text-sm text-gray-300 hover:text-white transition-all hover:scale-105 flex items-center gap-3 bg-zinc-700/30 p-3 rounded-lg">
-              <SiMongodb className="text-green-500 text-xl" />MongoDB
+              <FaSearchDollar className="text-green-500 text-xl" />SEO
             </li>
             <li className="text-sm text-gray-300 hover:text-white transition-all hover:scale-105 flex items-center gap-3 bg-zinc-700/30 p-3 rounded-lg">
-              <SiExpress className="text-white text-xl" />Express.js
+              <SiGoogleanalytics className="text-white text-xl" />Google Analytics 4
             </li>
             <li className="text-sm text-gray-300 hover:text-white transition-all hover:scale-105 flex items-center gap-3 bg-zinc-700/30 p-3 rounded-lg">
-              <FaReact className="text-blue-400 text-xl animate-spin-slow" />React
+              <FaBullhorn className="text-blue-400 text-xl" />Content Marketing
             </li>
             <li className="text-sm text-gray-300 hover:text-white transition-all hover:scale-105 flex items-center gap-3 bg-zinc-700/30 p-3 rounded-lg">
-              <FaNodeJs className="text-green-500 text-xl" />Node.js
+              <SiSemrush className="text-green-500 text-xl" />SEMrush & Ahrefs
             </li>
             <li className="text-sm text-gray-300 hover:text-white transition-all hover:scale-105 flex items-center gap-3 bg-zinc-700/30 p-3 rounded-lg">
-              <SiJavascript className="text-yellow-400 text-xl" />JavaScript
+              <FaHashtag className="text-yellow-400 text-xl" />Social Media Marketing
             </li>
             <li className="text-sm text-gray-300 hover:text-white transition-all hover:scale-105 flex items-center gap-3 bg-zinc-700/30 p-3 rounded-lg">
-              <SiTypescript className="text-blue-500 text-xl" />TypeScript
+              <SiLinkedin className="text-blue-500 text-xl" />LinkedIn Marketing
             </li>
             <li className="text-sm text-gray-300 hover:text-white transition-all hover:scale-105 flex items-center gap-3 bg-zinc-700/30 p-3 rounded-lg">
-              <FaDatabase className="text-purple-500 text-xl" />REST APIs
+              <FaReddit className="text-orange-500 text-xl" />Reddit Marketing
             </li>
-            {/* <li className="text-gray-300 hover:text-white transition-all hover:scale-105 flex items-center gap-3 bg-zinc-700/30 p-3 rounded-lg">
-              <SiGraphql className="text-pink-500 text-xl" />GraphQL
-            </li> */}
             <li className="text-sm text-gray-300 hover:text-white transition-all hover:scale-105 flex items-center gap-3 bg-zinc-700/30 p-3 rounded-lg">
-              <FaGitAlt className="text-orange-500 text-xl" />Git
+              <SiPinterest className="text-red-500 text-xl" />Pinterest Marketing
             </li>
-            {/* <li className="text-gray-300 hover:text-white transition-all hover:scale-105 flex items-center gap-3 bg-zinc-700/30 p-3 rounded-lg">
-              <FaAws className="text-yellow-500 text-xl" />AWS
-            </li> */}
+            <li className="text-sm text-gray-300 hover:text-white transition-all hover:scale-105 flex items-center gap-3 bg-zinc-700/30 p-3 rounded-lg">
+              <FaYoutube className="text-red-600 text-xl" />Video Marketing
+            </li>
           </ul>
         </div>
 
         <div className="bg-zinc-800/50 p-4 rounded-lg mt-auto">
           <h3 className="text-lg md:text-xl font-semibold mb-4 text-white flex items-center gap-3">
-            <FaGamepad className="text-purple-400 animate-bounce" />
+            <FaBook className="text-purple-400 animate-bounce" />
             Interests & Hobbies
           </h3>
           <div className="flex items-start gap-4 flex-wrap">
             <FaBook className="text-green-400 text-2xl mt-1" />
             <p className="text-sm md:text-sm text-gray-300 leading-relaxed hover:text-white transition-colors flex-1">
-              Beyond coding, I'm passionate about building scalable web applications and solving complex problems. I enjoy working with databases, optimizing performance, and implementing secure authentication systems. In my free time, I contribute to open-source projects and stay updated with the latest web development trends.
+              Beyond marketing, I'm an avid enthusiast of anime, manga, manhua, and manhwa, finding inspiration in their compelling narratives. As a passionate foodie and Google Guide, I explore diverse culinary experiences and share authentic reviews. These interests fuel my creativity and contribute to my innovative marketing approaches.
             </p>
           </div>
         </div>
