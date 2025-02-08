@@ -21,13 +21,13 @@ const Side = () => {
         </div>
         <div className="w-full space-y-6">
           <div>
-            <h1 className="text-left text-lg sm:text-xl text-white/80 mb-3 flex items-center gap-2">
+            <h1 className="text-left text-lg sm:text-sm text-white/80 mb-3 flex items-center gap-2">
               <FaBriefcase className="text-yellow-500" />
               Current Role
             </h1>
             <div className="bg-zinc-800 p-4 rounded-lg">
               <h2 className="text-left text-base sm:text-lg font-semibold text-white/90 mb-2">Product Marketing Associate</h2>
-              <ul className="text-left text-sm sm:text-base text-white/70 space-y-2 list-disc list-inside">
+              <ul className="text-left text-sm sm:text-xs text-white/70 space-y-2 list-disc list-inside">
                 <li>Scaled platform to 46,000+ organic users and 200+ paying customers</li>
                 <li>Generated 6M+ impressions across Google and Bing</li>
                 <li>Achieved 4,600+ Reddit conversions</li>
@@ -36,7 +36,7 @@ const Side = () => {
             </div>
           </div>
           <div>
-            <h1 className="text-left text-lg sm:text-xl text-white/80 mb-3 flex items-center gap-2">
+            <h1 className="text-left text-lg sm:text-sm text-white/80 mb-3 flex items-center gap-2">
               <FaChartLine className="text-green-500" />
               Key Achievements
             </h1>
@@ -59,16 +59,9 @@ const Side = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-wrap gap-3">
-            <a href="http://github.com/umar-ejaz15/" target="_blank" className="flex items-center gap-2 bg-zinc-800 px-4 py-2 rounded-lg hover:bg-zinc-700 transition-all duration-300">
-              <FaGithub className="text-white" />
-              <span className="text-sm">GitHub</span>
-            </a>
-            <a href="https://www.linkedin.com/in/umar-ejaz-6734402b1/" target="_blank" className="flex items-center gap-2 bg-zinc-800 px-4 py-2 rounded-lg hover:bg-zinc-700 transition-all duration-300">
-              <FaLinkedin className="text-blue-400" />
-              <span className="text-sm">LinkedIn</span>
-            </a>
-            <a onClick={()=>opencv()} className="flex items-center gap-2 bg-zinc-800 px-4 py-2 rounded-lg hover:bg-zinc-700 transition-all duration-300 cursor-pointer">
+          <div className="flex flex-wrap gap-3 ">
+            
+            <a onClick={()=>opencv()} className="flex items-center mx-auto gap-2 bg-zinc-800 px-4 py-2 rounded-lg hover:bg-zinc-700 transition-all duration-300 cursor-pointer">
               <FaDownload className="text-green-400" />
               <span className="text-sm">Resume</span>
             </a>
